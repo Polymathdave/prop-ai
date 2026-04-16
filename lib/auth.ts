@@ -10,6 +10,14 @@ export const auth = betterAuth({
   database: drizzleAdapter(db, {
     provider: "pg",
   }),
+  user: {
+    additionalFields: {
+      role: {
+        type: "string",
+        enum: ["landlord", "agent", "user"],
+      },
+    },
+  },
   emailAndPassword: { enabled: true },
   plugins: [nextCookies(),],
 });
