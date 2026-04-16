@@ -55,7 +55,7 @@ export function OnboardingForm({
           return;
         }
 
-        toast.success("Welcome to Dwelyn!");
+        toast.success("Welcome to Prop AI!");
         router.push("/");
         router.refresh();
       } catch (err) {
@@ -183,7 +183,7 @@ export function OnboardingForm({
     >
       <FieldGroup>
         <div className="flex flex-col items-center gap-1 text-center">
-          <h1 className="text-2xl font-bold">Welcome to Dwelyn!</h1>
+          <h1 className="text-2xl font-bold">Welcome to Prop AI!</h1>
           <p className="text-muted-foreground text-sm text-balance">
             Let&apos;s get your account set up
           </p>

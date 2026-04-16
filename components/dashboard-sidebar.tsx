@@ -94,7 +94,7 @@ export function DashboardSidebar({ user }: DashboardSidebarProps) {
                 <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
                   <Home className="size-4" />
                 </div>
-                <span className="text-lg font-medium">Dwelyn</span>
+                <span className="text-lg font-medium">Prop AI</span>
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>

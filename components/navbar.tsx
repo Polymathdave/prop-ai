@@ -35,7 +35,7 @@ export function Navbar() {
               href="/"
               className="p-0 h-auto font-bold text-xl text-foreground hover:bg-transparent"
             >
-              🏠 Dwelyn
+              🏠 Prop AI
             </Link>
           </div>
 

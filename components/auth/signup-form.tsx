@@ -82,7 +82,7 @@ export function SignupForm({
         <div className="flex flex-col items-center gap-1 text-center">
           <h1 className="text-2xl font-bold">Create your account</h1>
           <p className="text-muted-foreground text-sm text-balance">
-            Join Dwelyn to search properties or list your own
+            Join Prop AI to search properties or list your own
           </p>
         </div>
 

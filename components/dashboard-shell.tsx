@@ -82,7 +82,7 @@ export function DashboardShell({ user, children }: DashboardShellProps) {
             </Button>
             
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-xl font-bold">🏠 Dwelyn</span>
+              <span className="text-xl font-bold">🏠 Prop AI</span>
             </Link>
           </div>
 
